@@ -38,3 +38,4 @@ doc/
 *.swp
 *~
 docker/
+.DS_Store
