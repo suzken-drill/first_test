@@ -50,6 +50,6 @@ test:
 #
 production:
   <<: *default
-  database: us-cdbr-iron-east-02.cleardb.net/heroku_186c8f20bbb783e
-  username: b9ee2f1aedd189
+  database: first_test_production
+  username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
